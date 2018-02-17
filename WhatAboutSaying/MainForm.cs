@@ -25,6 +25,8 @@ namespace WhatAboutSaying
 			//
 			InitializeComponent();
 			
+			
+			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//

@@ -8,6 +8,11 @@
  */
 using System;
 using System.Windows.Forms;
+using System.Diagnostics;
+using System.Collections.Generic;
+using System.Diagnostics;
+
+
 
 namespace WhatAboutSaying
 {
@@ -24,7 +29,18 @@ namespace WhatAboutSaying
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new MainForm());
+			//Application.Run(new MainForm());
+			
+			//Console.WriteLine("heelo jee");
+			Console.Beep();
+			Console.Beep();
+			Debug.WriteLine("jee jee");
+			Debug.WriteLine("kylla tama tasta onnistuu");
+			
+			Sayings says = new Sayings();
+			
+			
+			
 		}
 		
 	}

@@ -1,0 +1,6 @@
+C:\Users\conahe3\Dropbox\Programming\C#_Projects\WhatAboutSaying\WhatAboutSaying\bin\Debug\WhatAboutSaying.exe.config
+C:\Users\conahe3\Dropbox\Programming\C#_Projects\WhatAboutSaying\WhatAboutSaying\bin\Debug\WhatAboutSaying.exe
+C:\Users\conahe3\Dropbox\Programming\C#_Projects\WhatAboutSaying\WhatAboutSaying\bin\Debug\WhatAboutSaying.pdb
+C:\Users\conahe3\Dropbox\Programming\C#_Projects\WhatAboutSaying\WhatAboutSaying\obj\Debug\WhatAboutSaying.csprojResolveAssemblyReference.cache
+C:\Users\conahe3\Dropbox\Programming\C#_Projects\WhatAboutSaying\WhatAboutSaying\obj\Debug\WhatAboutSaying.exe
+C:\Users\conahe3\Dropbox\Programming\C#_Projects\WhatAboutSaying\WhatAboutSaying\obj\Debug\WhatAboutSaying.pdb
