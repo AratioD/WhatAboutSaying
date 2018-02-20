@@ -39,6 +39,10 @@ namespace WhatAboutSaying
 			
 			Sayings says = new Sayings();
 			
+			//Debug.WriteLine(says.jee);
+			//Debug.writeline(says.jee());
+			MessageBox.Show(says.jee());
+			
 			
 			
 		}

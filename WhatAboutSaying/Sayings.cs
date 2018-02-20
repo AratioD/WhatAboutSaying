@@ -14,9 +14,34 @@ namespace WhatAboutSaying
 	/// Description of Sayings.
 	/// </summary>
 	public class Sayings
+		
+		
 	{
-		public Sayings()
+		private string sayings;
+
+		
+		public Sayings(){}
+		
+		
+		public Sayings(String name)
+			
 		{
+			sayings = name;
+			
+			
 		}
+		
+		public string jee()
+		{
+			return "Terve Valmet";
+			
+		}
+		
 	}
+	
+	
+	
 }
+
+
+
