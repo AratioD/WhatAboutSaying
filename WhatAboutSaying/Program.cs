@@ -45,6 +45,9 @@ namespace WhatAboutSaying
 			
 			MessageBox.Show(says.numero().ToString("0.######"));
 			
+			Sayings says2 = new Sayings("jsdfs",23);
+			MessageBox.Show(says2.haHaa());
+			
 			
 		}
 	}

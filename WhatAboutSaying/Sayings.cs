@@ -1,11 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: CONAHE3
- * Date: 17.2.2018
- * Time: 23.10
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
+﻿
 using System;
 
 namespace WhatAboutSaying
@@ -14,34 +7,38 @@ namespace WhatAboutSaying
 	/// Description of Sayings.
 	/// </summary>
 	public class Sayings
-		
-		
 	{
-		private String sayings;
+		public String Name { get; set; }
+		public int Age { get; set; }
+		
+		public Sayings(String name, int age)
+		{
+			Name = name;
+			Age = age;
+		}
 
 		
+		//Consctructor without parametrs.
 		public Sayings(){}
 		
 		
-		public Sayings(String name)
-			
-		{
-			sayings = name;
-			
-			
-		}
 		
+		// The first paragraph of hello world test!
 		public String jee()
 		{
 			return "Terve maailma!";
-		}	
+		}
 		
+		// Returns double number!
 		public Double numero()
 		{
 			return 23.2342;
 		}
 		
-		
+		public String haHaa()
+		{
+			return Name;
+		}
 	}
 }
 
