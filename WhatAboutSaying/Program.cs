@@ -43,9 +43,9 @@ namespace WhatAboutSaying
 			//Debug.writeline(says.jee());
 			MessageBox.Show(says.jee());
 			
+			MessageBox.Show(says.numero().ToString("0.######"));
 			
 			
 		}
-		
 	}
 }

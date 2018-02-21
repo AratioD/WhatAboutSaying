@@ -17,7 +17,7 @@ namespace WhatAboutSaying
 		
 		
 	{
-		private string sayings;
+		private String sayings;
 
 		
 		public Sayings(){}
@@ -31,16 +31,18 @@ namespace WhatAboutSaying
 			
 		}
 		
-		public string jee()
+		public String jee()
 		{
-			return "Terve Valmet";
-			
+			return "Terve maailma!";
+		}	
+		
+		public Double numero()
+		{
+			return 23.2342;
 		}
 		
+		
 	}
-	
-	
-	
 }
 
 
