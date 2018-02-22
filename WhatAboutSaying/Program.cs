@@ -1,11 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: CONAHE3
- * Date: 14.2.2018
- * Time: 22.57
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
+﻿
 using System;
 using System.Windows.Forms;
 using System.Diagnostics;
@@ -29,24 +22,21 @@ namespace WhatAboutSaying
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			//Application.Run(new MainForm());
 			
-			//Console.WriteLine("heelo jee");
-			Console.Beep();
-			Console.Beep();
-			Debug.WriteLine("jee jee");
-			Debug.WriteLine("kylla tama tasta onnistuu");
+			Sayings says = new Sayings("ketun häntä kainalossa", "foxtail in the armpit");
+			Debug.WriteLine(says.getFinSay());
+			Debug.WriteLine(says.getEngSay());
 			
-			Sayings says = new Sayings();
+			Sayings says2 = new Sayings("oma lehmä ojassa", "own cow in the ditch");
+			Debug.WriteLine(says2.getFinSay());
+			Debug.WriteLine(says2.getEngSay());
 			
-			//Debug.WriteLine(says.jee);
-			//Debug.writeline(says.jee());
-			MessageBox.Show(says.jee());
-			
-			MessageBox.Show(says.numero().ToString("0.######"));
-			
-			Sayings says2 = new Sayings("jsdfs",23);
-			MessageBox.Show(says2.haHaa());
+			int n = 1;
+			while (n < 6)
+			{
+				Debug.WriteLine("Current value of n is {0}", n);
+				n++;
+			}
 			
 			
 		}
